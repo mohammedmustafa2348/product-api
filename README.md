@@ -62,23 +62,23 @@ In a basic Dockerized Springboot Maven application, build a single REST API endp
 
 GET /product
 
-Query Parameter			Description
+Query Parameter	----------------------------------> Description
 
-type    					The product type. (String. Can be 'phone' or 'subscription')
+type ---------------------------------------------->(String. Can be 'phone' or 'subscription')
 
-min_price   				The minimum price in SEK. (Number)
+min_price ----------------------------------------->The minimum price in SEK. (Number)
 
-max_price   				The maximum price in SEK. (Number)
+max_price ----------------------------------------->The maximum price in SEK. (Number)
 
-city    					The city in which a store is located. (String)
+city  ---------------------------------------------->The city in which a store is located. (String)
 
-property    				The name of the property. (String. Can be 'color' or 'gb_limit')
+property -------------------------------------------->The name of the property. (String. Can be 'color' or 'gb_limit')
 
-property:color  			The color of the phone. (String)
+property:color -------------------------------------> The color of the phone. (String)
 
-property:gb_limit_min    	The minimum GB limit of the subscription. (Number)
+property:gb_limit_min ------------------------------>The minimum GB limit of the subscription. (Number)
 
-property:gb_limit_max    	The maximum GB limit of the subscription. (Number)
+property:gb_limit_max ------------------------------>The maximum GB limit of the subscription. (Number)
 
 
 The expected response is a JSON array with the products in a 'data' wrapper. 
