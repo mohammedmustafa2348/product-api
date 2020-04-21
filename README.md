@@ -13,7 +13,7 @@ Steps to Setup:
 3. Build and run the app using maven 
 	
     	mvn package
-    	java -jar target/0.0.1-SNAPSHOT.jar
+    	java -jar target/demo-0.0.1-SNAPSHOT.jar
 	
 	b. Alternatively, you can run the app without packaging it using
 	
